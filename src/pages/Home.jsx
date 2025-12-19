@@ -7,7 +7,7 @@ function Home() {
       className="bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row items-center gap-6"
     >
       <img
-        src="/sahroni.webp"
+        src={`${import.meta.env.BASE_URL}sahroni.webp`}
         alt="Profil Ahmad Rizki"
         className="w-36 h-36 object-cover rounded-full shadow-md"
       />
@@ -16,7 +16,14 @@ function Home() {
           Halo, Saya Ahmad Sahroni
         </h2>
         <p className="mt-2 text-gray-600">
-          Web Developer & UI/UX Designer — Saya berdedikasi untuk membangun pengalaman digital yang sederhana, cepat, dan elegan. Dengan keahlian dalam pengembangan web modern dan desain antarmuka yang user-centric, saya membantu bisnis di Indonesia menciptakan solusi digital yang tidak hanya fungsional tetapi juga menarik secara visual. Berpengalaman dalam mengembangkan aplikasi web responsif menggunakan teknologi terkini seperti React, serta merancang interface yang intuitif dengan mempertimbangkan kebutuhan lokal dan global.
+          Web Developer & UI/UX Designer — Saya berdedikasi untuk membangun
+          pengalaman digital yang sederhana, cepat, dan elegan. Dengan keahlian
+          dalam pengembangan web modern dan desain antarmuka yang user-centric,
+          saya membantu bisnis di Indonesia menciptakan solusi digital yang
+          tidak hanya fungsional tetapi juga menarik secara visual.
+          Berpengalaman dalam mengembangkan aplikasi web responsif menggunakan
+          teknologi terkini seperti React, serta merancang interface yang
+          intuitif dengan mempertimbangkan kebutuhan lokal dan global.
         </p>
         <div className="mt-4 flex gap-3">
           <Link
