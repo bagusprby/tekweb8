@@ -7,7 +7,7 @@ function Home() {
       className="bg-white rounded-xl shadow-md p-6 flex flex-col md:flex-row items-center gap-6"
     >
       <img
-        src="./public/sahroni.webp"
+        src="/sahroni.webp"
         alt="Profil Ahmad Rizki"
         className="w-36 h-36 object-cover rounded-full shadow-md"
       />
